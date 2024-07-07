@@ -542,34 +542,6 @@ button {
   }
 }
 
-.photos {
-  background-color: var(--background-01);
-}
-
-.photos .content {
-  margin: 0 auto;
-  max-width: 70rem;
-  padding: 5rem 1rem;
-}
-
-.photo_list {
-  display: grid;
-  align-items: center;
-  gap: .25rem;
-}
-
-@media (min-width: 728px) {
-  .photos .content .photo_list {
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-  }
-}
-
-.photo {
-  border-radius: 24px;
-  width: 100%;
-}
-
 .cuts_list {
   display: grid;
   gap: 1rem;
